@@ -1,0 +1,266 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "User can place a bet on an event",
+        "description": "",
+        "id": "william-hill-sports-book;user-can-place-a-bet-on-an-event;events-for-selection;2",
+        "after": [
+          {
+            "result": {
+              "duration": 335277575,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.beforeScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6976189219,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on sports book page",
+            "match": {
+              "location": "SportsBookSteps.iAmOnSportsBookPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7535376572,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with username \"WHATA_FOG2\" and password \"F0gUaTtest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WHATA_FOG2",
+                  "offset": 23
+                },
+                {
+                  "val": "F0gUaTtest",
+                  "offset": 49
+                }
+              ],
+              "location": "SportsBookSteps.iLoginWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472097105,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select a \"Football\" event",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Football",
+                  "offset": 12
+                }
+              ],
+              "location": "SportsBookSteps.iSelectAEvent(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1984236475,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select the first active selection",
+            "match": {
+              "location": "SportsBookSteps.iSelectTheFirstActiveSelection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17540042710,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I place a bet of \"0.05\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.05",
+                  "offset": 18
+                }
+              ],
+              "location": "SportsBookSteps.iPlaceABetOf(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3058386201,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the bet should be successfully placed",
+            "match": {
+              "location": "SportsBookSteps.theBetShouldBeSuccessfullyPlaced()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@acceptance_test"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "User can place a bet on an event",
+        "description": "",
+        "id": "william-hill-sports-book;user-can-place-a-bet-on-an-event;events-for-selection;3",
+        "after": [
+          {
+            "result": {
+              "duration": 252523650,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.beforeScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1954976860,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on sports book page",
+            "match": {
+              "location": "SportsBookSteps.iAmOnSportsBookPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7887790410,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with username \"WHATA_FOG2\" and password \"F0gUaTtest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WHATA_FOG2",
+                  "offset": 23
+                },
+                {
+                  "val": "F0gUaTtest",
+                  "offset": 49
+                }
+              ],
+              "location": "SportsBookSteps.iLoginWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1769825842,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select a \"Tennis\" event",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tennis",
+                  "offset": 12
+                }
+              ],
+              "location": "SportsBookSteps.iSelectAEvent(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 337620646,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select the first active selection",
+            "match": {
+              "location": "SportsBookSteps.iSelectTheFirstActiveSelection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12800158459,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I place a bet of \"0.05\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.05",
+                  "offset": 18
+                }
+              ],
+              "location": "SportsBookSteps.iPlaceABetOf(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3104485598,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the bet should be successfully placed",
+            "match": {
+              "location": "SportsBookSteps.theBetShouldBeSuccessfullyPlaced()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@acceptance_test"
+          }
+        ]
+      }
+    ],
+    "name": "William Hill Sports Book",
+    "description": "",
+    "id": "william-hill-sports-book",
+    "keyword": "Feature",
+    "uri": "Sportsbook.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@acceptance_test"
+      }
+    ]
+  }
+]
